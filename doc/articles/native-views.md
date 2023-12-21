@@ -1,4 +1,4 @@
----
+﻿---
 uid: Uno.Development.NativeViews
 ---
 
@@ -44,7 +44,7 @@ mc:Ignorable="d android"
 Adding native views in C# code requires you to first 'wrap' the native view in a special `UIElement`, because 'container' elements like `Panel` and `Border` expect a child of type `UIElement` (as of Uno 3.0 and above). The recommended way to do this is with the `VisualTreeHelper.AdaptNative()` static method:
 
 ```csharp
-using Windows.UI.Xaml.Media
+using Microsoft.UI.Xaml.Media
 ...
 
 var ratingBar = new Android.Widget.RatingBar(Uno.UI.ContextHelper.Current);
