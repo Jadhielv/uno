@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Linq;
 using Private.Infrastructure;
 
@@ -69,7 +69,7 @@ public sealed partial class ConditionalTestAttribute : TestMethodAttribute
 
 	private static bool IsSkiaHostAssembly(string name)
 #if __SKIA__
-		=> Microsoft.UI.Xaml.Application.Current.Host?.GetType().Assembly.GetName().Name == name;
+		=> Windows.UI.Xaml.Application.Current.Host?.GetType().Assembly.GetName().Name == name;
 #else
 		=> false;
 #endif

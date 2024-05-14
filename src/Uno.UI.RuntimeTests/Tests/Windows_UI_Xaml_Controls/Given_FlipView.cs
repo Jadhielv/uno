@@ -11,11 +11,11 @@ using Uno.UI.RuntimeTests.Helpers;
 using Uno.UI.RuntimeTests.Tests.Windows_UI_Xaml_Controls.FlipViewPages;
 using Windows.Foundation.Metadata;
 using Windows.UI;
-using Microsoft.UI.Xaml;
-using Microsoft.UI.Xaml.Controls;
-using Microsoft.UI.Xaml.Data;
-using Microsoft.UI.Xaml.Media;
-using Microsoft.UI.Xaml.Media.Imaging;
+using Windows.UI.Xaml;
+using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Data;
+using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using static Private.Infrastructure.TestServices;
 using Windows.UI.Input.Preview.Injection;
 using Uno.Extensions;
@@ -67,7 +67,7 @@ namespace Uno.UI.RuntimeTests.Tests.Windows_UI_Xaml_Controls
 #endif
 		public async Task When_Background_Color()
 		{
-			if (!ApiInformation.IsTypePresent("Microsoft.UI.Xaml.Media.Imaging.RenderTargetBitmap"))
+			if (!ApiInformation.IsTypePresent("Windows.UI.Xaml.Media.Imaging.RenderTargetBitmap"))
 			{
 				Assert.Inconclusive(); // System.NotImplementedException: RenderTargetBitmap is not supported on this platform.
 			}
@@ -471,19 +471,19 @@ namespace Uno.UI.RuntimeTests.Tests.Windows_UI_Xaml_Controls
 					{
 						Width = 100,
 						Height = 100,
-						Background = new SolidColorBrush(Microsoft.UI.Colors.Red),
+						Background = new SolidColorBrush(Windows.UI.Colors.Red),
 					},
 					new Border
 					{
 						Width = 100,
 						Height = 100,
-						Background = new SolidColorBrush(Microsoft.UI.Colors.Green),
+						Background = new SolidColorBrush(Windows.UI.Colors.Green),
 					},
 					new Border
 					{
 						Width = 100,
 						Height = 100,
-						Background = new SolidColorBrush(Microsoft.UI.Colors.Blue),
+						Background = new SolidColorBrush(Windows.UI.Colors.Blue),
 					},
 				}
 			};
