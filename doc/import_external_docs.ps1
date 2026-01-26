@@ -18,7 +18,7 @@ $external_docs = @{
     "figma-docs" = @{ ref="842a2792282b88586a337381b2b3786e779973b4" } #latest main commit
     "uno.resizetizer" = @{ ref="afba34d65a8077e8c29e78c5fda416ab4928d8df" } #latest main commit
     "uno.uitest" = @{ ref="94d027295b779e28064aebf99aeaee2b393ad558" } #latest master commit
-    "uno.extensions" = @{ ref="28db2d3424a93a801f0265b9221b9a5c089b62d9" } #latest main commit
+    "uno.extensions" = @{ ref="3cce3b31905cc4edfdf0d7bd266ee85bfbbc8f8e" } #latest main commit
     "workshops" = @{ ref="3515c29e03dea36cf2206d797d1bf9f8620370e3" } #latest master commit
     "uno.samples" = @{ ref="8098a452951c9f73cbcf8d0ac1348f029820e53a" } #latest master commit
     "uno.chefs" = @{ ref="e838af9451b107bafaa56dfcd64957a11eda0f0c" } #latest main commit
