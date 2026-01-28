@@ -21,7 +21,7 @@ $external_docs = @{
     "uno.extensions" = @{ ref="3cce3b31905cc4edfdf0d7bd266ee85bfbbc8f8e" } #latest main commit
     "workshops" = @{ ref="3515c29e03dea36cf2206d797d1bf9f8620370e3" } #latest master commit
     "uno.samples" = @{ ref="8098a452951c9f73cbcf8d0ac1348f029820e53a" } #latest master commit
-    "uno.chefs" = @{ ref="e838af9451b107bafaa56dfcd64957a11eda0f0c" } #latest main commit
+    "uno.chefs" = @{ ref="94ef2e42ec41e981e18d5c2a3ba0a16400a46eff" } #latest main commit
     "hd-docs"            = @{ ref="ded00dc100ae7dcba4a78fd32d393a58c1d1f23e"; dest="studio/Hot Design" } #latest main commit
 }
 
