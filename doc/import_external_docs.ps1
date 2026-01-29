@@ -10,7 +10,7 @@ Set-PSDebug -Trace 1
 # Each entry: repo name -> @{ ref = '<commit|branch>'; dest = '<sub-folder>'? }
 $external_docs = @{
     # use either commit, or branch name to use its latest commit
-    "uno.wasm.bootstrap" = @{ ref="3f4abe8c9467635e63644bb0c6c77144f52ede85" } #latest main commit
+    "uno.wasm.bootstrap" = @{ ref="7ba215b8ca40a0da09781d5f6b99a5badf918143" } #latest main commit
     "uno.themes" = @{ ref="88f3a7b5c0c6af3926e8a4d86cdcdb8b340eb2b7" } #latest master commit
     "uno.toolkit.ui" = @{ ref="08417071d55968f5648720e665355fa82e23ff8a" } #latest main commit
     "uno.check" = @{ ref="d80cfb2e37941bfbb8d9d7bd9cc6599567382cff" } #latest main commit
